@@ -1,0 +1,11 @@
+{
+    "environment": "test",
+    "configuration": {
+        "aa": "one",
+        "bb": "two"
+    },
+    "secondary_configuration": {
+        "cc": "three"
+    },
+    "ignored": "me"
+}
