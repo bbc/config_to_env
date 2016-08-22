@@ -36,7 +36,7 @@ module ConfigToEnv
     
   if JSON_CONFIG  
     config = JSON.parse( File.read(JSON_CONFIG) )
-    if JSON_CONFIG_NODES
+    if defined? JSON_CONFIG_NODES
       hash = {}
       JSON_CONFIG_NODES.each do |node|
         if ConfigToEnv.is_value?(config[node])
